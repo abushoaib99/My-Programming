@@ -1,0 +1,127 @@
+5 2
+caterpillar
+bird
+horse
+elefant
+herb
+herb caterpillar
+caterpillar bird
+5 3
+caterpillar
+bird
+horse
+elefant
+herb
+herb caterpillar
+caterpillar bird
+bird horse
+5 4
+caterpillar
+bird
+horse
+elefant
+herb
+herb caterpillar
+caterpillar bird
+bird horse
+horse elefant
+5 6
+caterpillar
+bird
+horse
+elefant
+herb
+herb caterpillar
+caterpillar bird
+bird horse
+horse elefant
+elefant bird
+herb horse
+5 4
+a
+b
+c
+d
+e
+a b
+c d
+d e
+g h
+6 6
+a
+b
+c
+d
+e
+f
+a b
+b c
+d e
+e f
+f a
+a h
+6 6
+a
+b
+c
+d
+e
+f
+a b
+b c
+c d
+e f
+f g
+a h
+3 0
+a
+b
+c
+5 4
+a
+b
+c
+d
+e
+b a
+c a
+b c
+c b
+4 4
+a
+b
+c
+d
+a b
+b c
+c a
+d b
+2 2
+a
+b
+a b
+b a
+9 10
+a
+b
+c
+d
+e
+f
+g
+h
+i
+b a
+c b
+d c
+e d
+c e
+f e
+g f
+e g
+a h
+i c
+0 0
+
+
+
