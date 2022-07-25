@@ -2,26 +2,25 @@
 using namespace std;
 void marge(int a[],int low,int mid,int high)
 {
-    int h=low,i=low,j=mid+1,b[100];
-    while(h<=mid && j<=high)
+    int i=low,k=low,j=mid+1,temp[100];
+    while((i<=mid) && (j<=high))
     {
-        if(a[h]<=a[j])
-            b[i++]=a[h++];
-        else
-            b[i++]=a[j++];
+        if(a[i]<=a[j]){
+            temp[k++]=a[i++];
+        }
+        else{
+            temp[k++]=a[j++];
+        }
     }
-    if(h>mid)
-    {
-        for(int k=j;k<=high;k++)
-            b[i++]=a[k];
+    while(i<=mid){
+        temp[k++]=a[i++];
     }
-    else
-    {
-        for(int k=h;k<=mid;k++)
-            b[i++]=a[k];
+    while(j<=high){
+        temp[k++]=a[j++];
     }
-    for(int k=low;k<=high;k++)
-        a[k]=b[k];
+    for(int k=low;k<=high;k++){
+        a[k]=temp[k];
+    }
 }
 
 void margesort(int a[],int low,int high)
